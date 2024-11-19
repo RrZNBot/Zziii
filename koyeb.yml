@@ -1,0 +1,13 @@
+name: Asisi
+
+services:
+  - name: Asisi
+    runtime: nodejs
+    build:
+      commands:
+        - npm install
+    run:
+      command: npm start
+    env:
+      API_KEY: me
+      TOKEN: you
